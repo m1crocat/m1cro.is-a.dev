@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+body {
+	background-color: #222;
+	font-family: 'Unbounded', sans-serif;
+} * {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	transition: all 1s;
+} a:hover {
+	text-decoration: underline;
+	color: #5d29be;
+	transition: all 1s;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+
+	background-color: #111;
+	color: #fff;
+	width: 100vw;
+	height: 50px;
+}
+
+.decoration {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: right;
+
+	font-size: 13px;
+
+	background-color: #413494;	
+
+	width: 200px;
+	height: 50px;
+
+	position: absolute;
+	right: 0;
+
+	transition: all 1s;
+}
+
+.navigation__links {
+	display: flex;
+	justify-content: space-evenly;
+
+	list-style: none;
+
+	width: 300px;
+}
+
+.main {
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	background: rgb(93,41,190);
+	background: linear-gradient(30deg, rgba(93, 41, 190, 0.404) 0%, rgba(0,0,0,1) 100%);
+	color: #fff;
+
+	width: 100vw;
+	height: 400px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #111;
+	color: #fff;
+
+	width: 100vw;
+	height: 50px;
+
+	position: none;
+}
+
+
+@media (max-width: 450px) {
+	.decoration {
+		display: none;
+	}
+	.main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		text-align: center;
+
+		font-size: 16px;
+		
+		width: auto;
+		height: auto;
+	}	
+}
+
+@media screen and (max-width: 800px) {
+	.decoration {
+		display: none;
+	}
+	.main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		text-align: center;
+
+		font-size: 16px;
+		
+		width: auto;
+		height: 300px;
+	}
+}
