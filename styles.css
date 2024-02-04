@@ -1,4 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@media (max-width: 450px) {
+	.decoration {
+		display: none;
+	}
+	.main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		text-align: center;
+
+		font-size: 16px;
+		
+		width: auto;
+		height: auto;
+	}	
+}
+
+@media screen and (max-width: 800px) {
+	.decoration {
+		display: none;
+	}
+	.main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		text-align: center;
+
+		font-size: 16px;
+		
+		width: auto;
+		height: 300px;
+	}
+}
 
 body {
 	background-color: #222;
@@ -39,7 +74,7 @@ nav {
 
 	font-size: 13px;
 
-	background-color: #413494;	
+	/* background-color: #413494;	 */
 
 	width: 200px;
 	height: 50px;
@@ -88,39 +123,3 @@ footer {
 	position: none;
 }
 
-
-@media (max-width: 450px) {
-	.decoration {
-		display: none;
-	}
-	.main {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
-		text-align: center;
-
-		font-size: 16px;
-		
-		width: auto;
-		height: auto;
-	}	
-}
-
-@media screen and (max-width: 800px) {
-	.decoration {
-		display: none;
-	}
-	.main {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
-		text-align: center;
-
-		font-size: 16px;
-		
-		width: auto;
-		height: 300px;
-	}
-}
