@@ -45,12 +45,11 @@ body {
 
 a {
 	color: #fff;
-	text-decoration: none;
-	transition: all 1s;
-} a:hover {
 	text-decoration: underline;
-	color: #5d29be;
-	transition: all 1s;
+	transition: all 0.5s;
+} a:hover {
+	color: #7333ea;
+	transition: all 0.5s;
 }
 
 nav {
@@ -99,8 +98,7 @@ nav {
 	align-items: center;
 	flex-direction: column;
 
-	background: rgb(93,41,190);
-	background: linear-gradient(30deg, rgba(93, 41, 190, 0.404) 0%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(330deg, #3e148c 0%, rgba(0,0,0,1) 100%);
 	color: #fff;
 
 	width: 100vw;
