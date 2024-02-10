@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 
-
-body {
-	background: linear-gradient(330deg, #3e148c 0%, rgba(0,0,0,1) 100%);
-	font-family: 'Unbounded', sans-serif;
-} * {
+* {
 	margin: 0;
 	/* padding: 0; */
 }
+
+body,html { 
+	background: rgb(0,0,0);
+	background: linear-gradient(343deg, rgba(62,20,140,1) 0%, rgba(0,0,0) 100%); 
+	font-family: 'Unbounded', sans-serif;
+	height:100%;
+} 
 
 a {
 	color: #fff;
@@ -58,7 +61,7 @@ nav {
 
 	list-style: none;
 
-	width: 200px;
+	width: 250px;
 }
 
 .main {
@@ -71,8 +74,9 @@ nav {
 	background: linear-gradient(330deg, #3e148c 0%, rgba(0,0,0,1) 100%);
 	color: #fff;
 
+	/*
 	width: 100vw;
-	height: 800px; */
+	height: 575px; */
 }
 
 .content {
