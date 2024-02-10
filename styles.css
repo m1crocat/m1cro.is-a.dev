@@ -113,9 +113,9 @@ footer {
 	.main {
 		display: flex;
 		justify-content: center;
-		align-items: center;
+		align-items: center; 
 
-		text-align: center;
+		/* text-align: center; */
 
 		font-size: 16px;
 		
@@ -134,7 +134,7 @@ footer {
 		justify-content: center;
 		align-items: center;
 
-		text-align: center;
+		/* text-align: center; */
 
 		font-size: 16px;
 		
