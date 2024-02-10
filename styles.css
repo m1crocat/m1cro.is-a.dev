@@ -119,4 +119,9 @@ footer {
 
 	position: none;
 }
-
+.rodion {
+	color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, red, rgb(195, 0, 255));
+}
