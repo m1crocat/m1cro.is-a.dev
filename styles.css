@@ -26,8 +26,8 @@ nav {
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
-
-	background-color: #111;
+	
+	background: rgb(0,0,0,0);
 	color: #fff;
 	width: 100vw;
 	height: 50px;
@@ -61,7 +61,7 @@ nav {
 
 	list-style: none;
 
-	width: 250px;
+	width: 300px;
 }
 
 .main {
@@ -94,8 +94,9 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
-	background-color: #111;
+	
+	background: rgb(17,17,17);
+	background: linear-gradient(111deg, rgba(17,17,17,1) 0%, rgba(0,0,0,0) 100%); 
 	color: #fff;
 
 	width: 100vw;
